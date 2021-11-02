@@ -141,9 +141,8 @@ function webdevpage() {
         "
       >
         <iframe
-          width="560"
-          height=""
-          class="responsive-iframe  roundglass p-2"
+        
+          class=" h-full w-full lg:h-full lg:w-full roundglass"
           src="https://www.youtube.com/embed/N6Nq62z2C6c"
           title="YouTube video player"
           frameborder="0"
@@ -205,9 +204,12 @@ function webdevpage() {
       </div>
       <div id="webworks"
       class="
-        mx-2
-        my-4
+       
         glass
+        mx-12
+        lg:mx-2
+        my-2
+        
         md:w-1/2 md:h-96
         lg:h-96
         sm:w-full
@@ -222,10 +224,12 @@ function webdevpage() {
           overflow-hidden
         "
       >
-        <iframe width="560" height="315" class="responsive-iframe roundglass p-2" src="https://www.youtube.com/embed/hJHvdBlSxug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" class=" h-full w-full lg:h-full lg:w-full  roundglass" src="https://www.youtube.com/embed/hJHvdBlSxug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
       </div>
-    </div>
+    </div>    
+  </div>
+
     
     `
     homepagecontainer.removeChild(changingdiv);
