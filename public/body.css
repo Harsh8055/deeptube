@@ -1,0 +1,41 @@
+.glass {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border: 1px solid rgba(255, 255, 255, 0.89);
+}
+.glass2 {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.17);
+  border-radius: 0px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.178);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(9px);
+  border: 0px solid rgba(255, 255, 255, 0.89);
+}
+.roundglass {
+  border-radius: 18px;
+}
+.roundglass2 {
+  border-radius: 24px;
+}
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.gradient {
+  background: rgb(74,213,193);
+  background: linear-gradient(90deg, rgba(74,213,193,0.09567577030812324) 0%, rgba(134,249,232,0.09567577030812324) 15%, rgba(209,242,242,0.6026785714285714) 100%);
+}
+.gradient2 {
+  background: rgb(175,255,251);
+background: linear-gradient(90deg, rgba(175,255,251,0.3897934173669467) 13%, rgba(189,249,239,0.4822303921568627) 44%, rgba(209,242,242,0.6026785714285714) 100%);
+}
