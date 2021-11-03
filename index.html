@@ -268,377 +268,485 @@
       </nav>
 <section class="flex gap-2 lg:flex-row flex-col">
       <div id="left-column-menu"
-        class="
-          glass
-          flex flex-col
-          align-items-center
-          overscroll-auto
-          lg:w-1/5
-          mx-4
-          sm:my-80
-          my-2
-          align-items-center
-          sm:min-vw-100
-        "
+        class=" glass flex flex-col align-items-center overscroll-auto lg:w-1/5 mx-4 m:my-80 my-2 align-items-center sm:min-vw-100">
+ <!-- web development collapse-->
+     <div>
+      <button
+        class="glass btn mt-36 mb-4  px-3 rounded collapsed"
+        data-bs-toggle="collapse"
+        data-bs-target="#web-collapse"
+        aria-expanded="false"
       >
-        <div>
-          <button
-            class="glass btn mt-32 mb-2 px-3 d-inline-flex rounded collapsed"
-            data-bs-toggle="collapse"
-            data-bs-target="#getting-started-collapse"
-            aria-expanded="false"
-          >
-            Web Development
-          </button>
+        Web Development
+      </button>
 
-          <div class="collapse mx-20 px-3 my-1" id="getting-started-collapse">
-            <ul class="list-unstyled fw-normal pb-1 small">
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Html/Css</a
-                >
-              </li>
+      <div class="collapse px-3 my-1" id="web-collapse">
+        <ul class="list-unstyled fw-normal pb-1 small">
+          <li>
+            <a 
+              class="
+              flex flex-col
+              align-items-center
+              overscroll-auto
+              lg:w-1/3"
+              > 
+              
+              
+              
+<!-- frontend button -->
+              <button
+              class="glass btn d-inline-flex rounded collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#frontend-collapse"
+              aria-expanded="false"
+            >
+              Frontend
+            </button>
+<!-- frontend div -->
+            <div class="collapse" id="frontend-collapse">
+              <ul class="list-unstyled fw-normal font-medium ">
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >Html/Css</a
+                  >
+                </li>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >tailwind/bootsrap</a
-                >
-              </li>
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >Javascript/Typescript</a
+                  >
+                </li>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Javascript/Typescript</a
-                >
-              </li>
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >React/Vue/Angular</a
+                  >
+                </li>
+               
+              </ul>
+            </div> 
+            </a>
+          </li>
+          <li>
+            <a 
+              class="
+              flex flex-col
+              align-items-center
+              overscroll-auto
+              lg:w-1/3 mt-2"
+              > 
+              
+              
+              
+<!-- frontend button -->
+              <button
+              class="glass btn d-inline-flex rounded collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#backend-collapse"
+              aria-expanded="false"
+            >
+              Backend
+            </button>
+<!-- frontend div -->
+            <div class="collapse" id="backend-collapse">
+              <ul class="list-unstyled fw-normal font-medium ">
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >NodeJS(Express)</a
+                  >
+                </li>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >React/Angular/Vue</a
-                >
-              </li>
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >MongoDB</a
+                  >
+                </li>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Nodejs(Express)</a
-                >
-              </li>
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >NoSQL/SQL</a>
+                </li>
+               
+              </ul>
+            </div> 
+            </a>
+          </li>
+         </ul>
+      </div>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >MongoDB</a
-                >
-              </li>
+    </div>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Sql/NoSql</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
+ <!-- web3 development collapse-->
+     <div>
+      <button
+        class="glass btn my-4  px-3 rounded collapsed"
+        data-bs-toggle="collapse"
+        data-bs-target="#web3dev-collapse"
+        aria-expanded="false"
+      >
+        Web3 Development
+      </button>
 
-        <div>
-          <button
-            class="glass btn mt-5 mb-3 px-3 d-inline-flex rounded collapsed"
-            data-bs-toggle="collapse"
-            data-bs-target="#getting-started-collapse-2"
-            aria-expanded="false"
-          >
-            Getting started
-          </button>
+      <div class="collapse px-3 my-1" id="web3dev-collapse">
+        <ul class="list-unstyled fw-normal pb-1 small">
+          <li>
+            <a 
+              class="
+              flex flex-col
+              align-items-center
+              overscroll-auto
+              lg:w-1/3"
+              > 
+              
+              
+              
+<!-- blockchain button -->
+              <button
+              class="glass btn d-inline-flex lg:ml-8 rounded collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#blockchain-collapse"
+              aria-expanded="false"
+            >
+              Blockchain
+            </button>
+<!-- fblockchain div -->
+            <div class="collapse" id="blockchain-collapse">
+              <ul class="list-unstyled fw-normal font-medium ">
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >Html/Css</a
+                  >
+                </li>
 
-          <div class="collapse mx-20 px-3 my-1" id="getting-started-collapse-2">
-            <ul class="list-unstyled fw-normal pb-1 small">
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Introduction</a
-                >
-              </li>
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >Javascript/Typescript</a
+                  >
+                </li>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Introduction</a
-                >
-              </li>
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >React/Vue/Angular</a
+                  >
+                </li>
+               
+              </ul>
+            </div> 
+            </a>
+          </li>
+          <li>
+            <a class="flex flex-col align-items-center overscroll-auto lg:w-1/3 mt-2"> 
+              
+              
+              
+<!-- smartcontract button -->
+              <button
+              class="glass btn d-inline-flex rounded collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#smartcontract-collapse"
+              aria-expanded="false"
+            >
+              Dapp
+            </button>
+<!-- smartcontract div -->
+            <div class="collapse" id="smartcontract-collapse">
+              <ul class="list-unstyled fw-normal font-medium ">
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >NodeJS(Express)</a
+                  >
+                </li>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Introduction</a
-                >
-              </li>
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >MongoDB</a
+                  >
+                </li>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Introduction</a
-                >
-              </li>
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >NoSQL/SQL</a>
+                </li>
+               
+              </ul>
+            </div> 
+            </a>
+          </li>
+         </ul>
+      </div>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Introduction</a
-                >
-              </li>
+    </div>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Introduction</a
-                >
-              </li>
+     <!-- app development collapse-->
+     <div>
+      <button
+        class="glass btn my-4 px-3 rounded collapsed"
+        data-bs-toggle="collapse"
+        data-bs-target="#appdev-collapse"
+        aria-expanded="false"
+      >
+        App Development
+      </button>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Introduction</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div>
-          <button
-            class="glass btn mt-5 mb-5 px-3 d-inline-flex rounded collapsed"
-            data-bs-toggle="collapse"
-            data-bs-target="#getting-started-collapse-3"
-            aria-expanded="false"
-          >
-            Getting started
-          </button>
+      <div class="collapse px-3 my-1" id="appdev-collapse">
+        <ul class="list-unstyled fw-normal pb-1 small">
+          <li>
+            <a 
+              class="
+              flex flex-col
+              align-items-center
+              overscroll-auto
+              lg:w-1/3"
+              > 
+              
+              
+              
+<!-- android button -->
+              <button
+              class="glass btn d-inline-flex rounded collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#android-collapse"
+              aria-expanded="false"
+            >
+              Android
+            </button>
+<!-- android div -->
+            <div class="collapse" id="android-collapse">
+              <ul class="list-unstyled fw-normal font-medium ">
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >Html/Css</a
+                  >
+                </li>
 
-          <div class="collapse mx-20 px-3 my-1" id="getting-started-collapse-3">
-            <ul class="list-unstyled fw-normal pb-1 small">
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Introduction</a
-                >
-              </li>
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >Javascript/Typescript</a
+                  >
+                </li>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Introduction</a
-                >
-              </li>
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >React/Vue/Angular</a
+                  >
+                </li>
+               
+              </ul>
+            </div> 
+            </a>
+          </li>
+          <li>
+            <a 
+              class="
+              flex flex-col
+              align-items-center
+              overscroll-auto
+              lg:w-1/3 mt-2"
+              > 
+              
+              
+              
+<!-- iosdev button -->
+              <button
+              class="glass btn d-inline-flex rounded collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#iosdev-collapse"
+              aria-expanded="false"
+            >
+              IOS
+            </button>
+<!-- iosdev div -->
+            <div class="collapse" id="iosdev-collapse">
+              <ul class="list-unstyled fw-normal font-medium ">
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >NodeJS(Express)</a
+                  >
+                </li>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Introduction</a
-                >
-              </li>
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >MongoDB</a
+                  >
+                </li>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Introduction</a
-                >
-              </li>
+                <li>
+                  <a
+                    href="/docs/5.1/getting-started/introduction/"
+                    class="
+                      glass
+                      my-2
+                      px-2
+                      d-inline-flex
+                      align-items-center
+                      rounded
+                    "
+                    >NoSQL/SQL</a>
+                </li>
+               
+              </ul>
+            </div> 
+            </a>
+          </li>
+         </ul>
+      </div>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Introduction</a
-                >
-              </li>
+    </div>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Introduction</a
-                >
-              </li>
 
-              <li>
-                <a
-                  href="/docs/5.1/getting-started/introduction/"
-                  class="
-                    glass
-                    my-2
-                    px-2
-                    d-inline-flex
-                    align-items-center
-                    rounded
-                  "
-                  >Introduction</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
    
       <div id="glasscards"
