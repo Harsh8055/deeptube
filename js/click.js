@@ -9,226 +9,208 @@ const homepagecontainer = document.getElementById("homepagecontainer");
 function webdevpage() {
 
     let html = ` 
-   
     <div class="flex glass flex-wrap -m-4 my-2" id="webdevcontainer">
-    <div class="mx-10 my-4 glass p-2 md:w-1/4" id="frontend">
-      <div
-        class="
-          h-full
-          border-2 border-gray-200 border-opacity-60
-          roundglass
-          overflow-hidden
-        "
-      >
-        <img
-          class="lg:h-48 md:h-36 w-full object-cover object-center"
-          src="img/website.svg"
-          alt="blog"
-          
-        />
-        <div class="p-6">
-          <h2
-            class="
-              tracking-widest
-              text-xs
-              title-font
-              font-medium
-              text-gray-400
-              mb-1
-            "
-          >
-            CATEGORY
-          </h2>
-          <h1
-            class="
-              title-font
-              text-lg
-              font-medium
-              text-gray-900
-              mb-3
-            "
-          >
-            The Catalyzer
-          </h1>
-          <p class="leading-relaxed mb-3">
-            Photo booth
-          </p>
-        
-        </div>
-      </div>
-    </div>
-    <div id="backend" class="mx-10 my-4 glass p-2 md:w-1/4">
-      <div
-        class="
-          h-full
-          border-2 border-gray-200 border-opacity-60
-          roundglass
-          overflow-hidden
-        "
-      >
-        <img
-          class="lg:h-48 md:h-36 w-full object-cover object-center"
-          src="img/website.svg"
-          alt="blog"
-        />
-        <div class="p-6">
-          <h2
-            class="
-              tracking-widest
-              text-xs
-              title-font
-              font-medium
-              text-gray-400
-              mb-1
-            "
-          >
-            CATEGORY
-          </h2>
-          <h1
-            class="
-              title-font
-              text-lg
-              font-medium
-              text-gray-900
-              mb-3
-            "
-          >
-            The 400 Blows
-          </h1>
-          <p class="leading-relaxed mb-3">
-            Photo booth fam kin
-          </p>
-         
-        </div>
-      </div>
-    </div>
-    
-      <h1
-        class="
-          md:w-full
-          sm:w-full
-          lg:w-full
-          text-3xl text-center
-          glass2
-          text-black
-          font-weight-bold
-          mb-5
-          p-3
-        "
-      >
-        Roadmap for Web Development
-      </h1>
-    
-    <div id="roadmapwebdev"
-      class="
-        mx-10
-        sm:mx-2
-        sm:my-2
-        my-4
-        glass
-        md:w-1/2 md:h-96
-        lg:h-96
-        sm:w-full sm:h-96
-        lg:w-1/2
-      "
-    >
-      <div
-        class="
-          h-full
-          border-2 border-gray-200 border-opacity-60
-          rounded-lg
-          overflow-hidden
-        "
-      >
-        <iframe
-        
-          class=" h-full w-full lg:h-full lg:w-full roundglass"
-          src="https://www.youtube.com/embed/N6Nq62z2C6c"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
+                <div class="mx-10 my-4 glass p-2 md:w-1/4" id="frontend">
+                  <div
+                    class="
+                      h-full
+                      border-2 border-gray-200 border-opacity-60
+                      roundglass
+                      overflow-hidden
+                    "
+                  >
+                    <img
+                      class="lg:h-48 md:h-36 w-full object-cover object-center"
+                      src="img/frontend.svg"
+                      alt="blog"
+                      
+                    />
+                    <div class="p-6">
+                  
+                      <h1
+                        class="
+                          title-font
+                          text-lg
+                          font-medium
+                          text-gray-900
+                          mb-3
+                        "
+                      >
+                        Frontend
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                        Frontend Dev Resources
+                      </p>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div id="backend" class="mx-10 my-4 glass p-2 md:w-1/4">
+                  <div
+                    class="
+                      h-full
+                      border-2 border-gray-200 border-opacity-60
+                      roundglass
+                      overflow-hidden
+                    "
+                  >
+                    <img
+                      class="lg:h-48 md:h-36 w-full object-cover object-center"
+                      src="img/backend.svg"
+                      alt="blog"
+                    />
+                    <div class="p-6">
+                  
+                      <h1
+                        class="
+                          title-font
+                          text-lg
+                          font-medium
+                          text-gray-900
+                          mb-3
+                        "
+                      >
+                        Backend
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                        Backend Development
+                      </p>
+                     
+                    </div>
+                  </div>
+                </div>
+                
+                  <h1
+                    class="
+                      md:w-full
+                      sm:w-full
+                      lg:w-full
+                      text-3xl text-center
+                      glass2
+                      text-black
+                      font-weight-bold
+                      mb-5
+                      p-3
+                    "
+                  >
+                    Roadmap for Web Development
+                  </h1>
+                
+                <div id="roadmapwebdev"
+                  class="
+                    mx-10
+                    sm:mx-2
+                    sm:my-2
+                    my-4
+                    glass
+                    md:w-1/2 md:h-96
+                    lg:h-96
+                    sm:w-full sm:h-96
+                    lg:w-1/2
+                  "
+                >
+                  <div
+                    class="
+                      h-full
+                      border-2 border-gray-200 border-opacity-60
+                      rounded-lg
+                      overflow-hidden
+                    "
+                  >
+                    <iframe
+                    
+                      class=" h-full w-full lg:h-full lg:w-full roundglass"
+                      src="https://www.youtube.com/embed/N6Nq62z2C6c"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
 
-    <div id="linksandresources" 
-    class="mx-10 my-4 glass md:w-1/3">
-      <div
-        class="
-          lg:h-full 
-          border-2 border-gray-200 border-opacity-60
-          roundglass 
-          overflow-hidden
-        "
-      >
-        <div class="p-6">
-          <h2
-            class="
-              tracking-widest
-              text-xs
-              title-font
-              font-medium
-              text-gray-400
-              mb-1
-            "
-          >
-            Roadmaps And Other Resources
-          </h2>
+                <div id="linksandresources" 
+                class="mx-10 my-4 glass md:w-1/3">
+                  <div
+                    class="
+                      lg:h-full 
+                      border-2 border-gray-200 border-opacity-60
+                      roundglass 
+                      overflow-hidden
+                    "
+                  >
+                    <div class="p-6">
+                      <h2
+                        class="
+                          tracking-widest
+                          text-xs
+                          title-font
+                          font-medium
+                          text-gray-400
+                          mb-1
+                        "
+                      >
+                        Roadmaps And Other Resources
+                      </h2>
 
-          <h1
-            class="
-              title-font
-              text-lg
-              font-medium
-              text-gray-900
-              mb-3
-            "
-          >
-            Some Useful links
-          </h1>
-          <p class="leading-relaxed mb-3">
-            <a 
-             target="_blank"
-              href="https://docs.google.com/document/d/1jSGO9o5bji8cNcmVfj145wwZ0Kww54IteEvIHIaKJYk/edit?usp=sharing"
-              class="btn btn-primary glass text-black">
-              Complete Web Dev Roadmap </a>
-              <a target="_blank" href="https://www.freecodecamp.org/news/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really-b4584e63585c/" class="btn btn-primary glass text-black m-2"> How web Works (blog)</a>
+                      <h1
+                        class="
+                          title-font
+                          text-lg
+                          font-medium
+                          text-gray-900
+                          mb-3
+                        "
+                      >
+                        Some Useful links
+                      </h1>
+                    <p class="leading-relaxed mb-3">
+                        <a   
+                         target="_blank"
+                          href="https://docs.google.com/document/d/1jSGO9o5bji8cNcmVfj145wwZ0Kww54IteEvIHIaKJYk/edit?usp=sharing"
+                          class="btn btn-primary my-2 glass 
+                          lg:mx-4
+                           mx-2 
+                          text-black">
+                          Complete Web Dev Roadmap </a>
+                          <a target="_blank" href="https://www.freecodecamp.org/news/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really-b4584e63585c/" class="btn btn-primary glass text-black  lg:mx-8
+                          md:mx-10 mx-4"> How web Works (blog)</a>
 
-            </p>
-         
-           
-          </div>
-        </div>
+                        </p>
+                     
+                       
+                      </div>
+                    </div>
 
-      </div>
-      <div id="webworks"
-      class="
-       
-        glass
-        mx-12
-        lg:mx-2
-        my-2
-        
-        md:w-1/2 md:h-96
-        lg:h-96
-        sm:w-full
-        lg:w-1/2
-      "
-    >
-      <div
-        class="
-          h-full
-          border-2 border-gray-200 border-opacity-60
-          rounded-lg
-          overflow-hidden
-        "
-      >
-        <iframe width="560" height="315" class=" h-full w-full lg:h-full lg:w-full  roundglass" src="https://www.youtube.com/embed/hJHvdBlSxug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div id="webworks"
+                  class="
+                   
+                    glass
+                    mx-12
+                    lg:mx-2
+                    my-2
+                    
+                    md:w-1/2 md:h-96
+                    lg:h-96
+                    sm:w-full
+                    lg:w-1/2
+                  "
+                >
+                  <div
+                    class="
+                      h-full
+                      border-2 border-gray-200 border-opacity-60
+                      rounded-lg
+                      overflow-hidden
+                     
+                    "
+                  >
+                    <iframe width="560" height="315" class=" h-full w-full lg:h-full lg:w-full  roundglass" src="https://www.youtube.com/embed/hJHvdBlSxug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-      </div>
-    </div>    
-  </div>
+                  </div>
+                </div>    
+              </div>
 
     
     `
@@ -252,23 +234,11 @@ function web3devpage() {
       >
         <img
           class="lg:h-48 md:h-36 w-full object-cover object-center"
-          src="img/website.svg"
+          src="img/theoryblockchain.svg"
           alt="blog"
           
         />
         <div class="p-6">
-          <h2
-            class="
-              tracking-widest
-              text-xs
-              title-font
-              font-medium
-              text-gray-400
-              mb-1
-            "
-          >
-            CATEGORY
-          </h2>
           <h1
             class="
               title-font
@@ -278,10 +248,10 @@ function web3devpage() {
               mb-3
             "
           >
-            The Catalyzer
+            Blockchain
           </h1>
           <p class="leading-relaxed mb-3">
-            Photo booth
+            Theory part of blockchain 
           </p>
         
         </div>
@@ -298,22 +268,11 @@ function web3devpage() {
       >
         <img
           class="lg:h-48 md:h-36 w-full object-cover object-center"
-          src="img/website.svg"
+          src="img/coding.svg"
           alt="blog"
         />
         <div class="p-6">
-          <h2
-            class="
-              tracking-widest
-              text-xs
-              title-font
-              font-medium
-              text-gray-400
-              mb-1
-            "
-          >
-            CATEGORY
-          </h2>
+         
           <h1
             class="
               title-font
@@ -323,10 +282,10 @@ function web3devpage() {
               mb-3
             "
           >
-            The 400 Blows
+            Smart Contract
           </h1>
           <p class="leading-relaxed mb-3">
-            Photo booth fam kin
+          Smart Contract Develoment Resources
           </p>
          
         </div>
@@ -517,23 +476,11 @@ function appdevpage() {
                   >
                     <img
                       class="lg:h-48 md:h-36 w-full object-cover object-center"
-                      src="img/website.svg"
+                      src="img/android.svg"
                       alt="blog"
                       
                     />
                     <div class="p-6">
-                      <h2
-                        class="
-                          tracking-widest
-                          text-xs
-                          title-font
-                          font-medium
-                          text-gray-400
-                          mb-1
-                        "
-                      >
-                        CATEGORY
-                      </h2>
                       <h1
                         class="
                           title-font
@@ -543,10 +490,10 @@ function appdevpage() {
                           mb-3
                         "
                       >
-                        The Catalyzer
+                        Android Development
                       </h1>
                       <p class="leading-relaxed mb-3">
-                        Photo booth
+                        Android Development Resources
                       </p>
                     
                     </div>
@@ -554,31 +501,17 @@ function appdevpage() {
                 </div>
                 <div id="ios" class="mx-10 my-4 glass p-2 md:w-1/4">
                   <div
-                    class="
+                      class="
                       h-full
                       border-2 border-gray-200 border-opacity-60
                       roundglass
-                      overflow-hidden
-                    "
-                  >
+                      overflow-hidden">
                     <img
                       class="lg:h-48 md:h-36 w-full object-cover object-center"
-                      src="img/website.svg"
+                      src="img/ios.svg"
                       alt="blog"
                     />
                     <div class="p-6">
-                      <h2
-                        class="
-                          tracking-widest
-                          text-xs
-                          title-font
-                          font-medium
-                          text-gray-400
-                          mb-1
-                        "
-                      >
-                        CATEGORY
-                      </h2>
                       <h1
                         class="
                           title-font
@@ -588,10 +521,10 @@ function appdevpage() {
                           mb-3
                         "
                       >
-                        The 400 Blows
+                        IOS Develoment
                       </h1>
                       <p class="leading-relaxed mb-3">
-                        Photo booth fam kin
+                        IOS Development Resources
                       </p>
                      
                     </div>
