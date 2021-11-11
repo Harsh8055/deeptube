@@ -332,7 +332,7 @@ function web3devpage() {
       <iframe
         
           class=" h-full w-full lg:h-full lg:w-full roundglass"
-          src="https://www.youtube.com/embed/N6Nq62z2C6c"
+          src="https://www.youtube.com/embed/3V3Gwq9LjEI"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
