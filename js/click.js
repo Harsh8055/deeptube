@@ -49,7 +49,7 @@ function webdevpage() {
                     </div>
                   </div>
                 </div>
-                <div id="backend" class="mx-10 my-4 glass p-2 md:w-1/4">
+                <div id="backend" onclick="backendpage()" class="mx-10 my-4 glass p-2 md:w-1/4">
                   <div
                     class="
                       h-full
@@ -227,7 +227,7 @@ function web3devpage() {
     let html = ` 
    
     <div class="flex glass flex-wrap -m-4 my-2" id="web3devcontainer">
-    <div class="mx-10 my-4 glass p-2 md:w-1/4" id="theory">
+    <div class="mx-10 my-4 glass p-2 md:w-1/4" onclick="blockchainpage()" id="theory">
       <div
         class="
           h-full
@@ -261,7 +261,7 @@ function web3devpage() {
         </div>
       </div>
     </div>
-    <div id="backend" class="mx-10 my-4 glass p-2 md:w-1/4">
+    <div id="dappdev" onclick="dappdevpage()" class="mx-10 my-4 glass p-2 md:w-1/4">
       <div
         class="
           h-full
@@ -713,6 +713,27 @@ function frontendpage(){
   // opens page in new tab
   // window.open("frontend.html")  
   location.replace("frontend.html");
+
+}
+function backendpage(){
+  console.log("it works too");
+  // opens page in new tab
+  // window.open("frontend.html")  
+  location.replace("backend.html");
+
+}
+function blockchainpage(){
+  console.log("it works too");
+  // opens page in new tab
+  // window.open("frontend.html")  
+  location.replace("blockchain.html");
+
+}
+function dappdevpage(){
+  console.log("it works too");
+  // opens page in new tab
+  // window.open("frontend.html")  
+  location.replace("dappdev.html");
 
 }
 
